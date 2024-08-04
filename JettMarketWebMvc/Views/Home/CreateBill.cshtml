@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="/js/pages/CreateBill.js" defer></script>
+    </head>
+
+
+    <body>
+      <h1>Create Bill</h1>
+      <label for="billUser">Bill to</label>
+      <select id="billUser"></select>
+      <label for="billProducts">Select Products</label>
+      <select id="billProducts"></select>
+      <button id="addProductButton">Add Product</button>
+      <button id="removeProductButton">Remove product</button>
+      <ul id="selectedProducts"></ul>
+      <label for="billPaid">Bill paid</label>
+      <input id="billPaid" type="checkbox" />
+      <button id="createBillButton">Create Bill</button>
+    </body>
+
+</html>
